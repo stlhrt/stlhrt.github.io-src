@@ -8,11 +8,11 @@
 
 plugins {
     id 'org.jbake.site' version '1.0.0'
-    id 'org.ajoberstar.git-publish' version '0.2.1'
+    id 'org.ajoberstar.git-publish' version '0.2.2-rc.1'
 }
 
 gitPublish {
-    repoUri = 'git@github.com:stlhrt/stlhrt.gihub.io.git'
+    repoUri = 'git@github.com:stlhrt/stlhrt.github.io.git'
     branch = 'gh-pages'
     contents {
         from 'build/jbake'
