@@ -18,7 +18,7 @@
             ${post.date?string("MMM dd, yyyy")}</time>
             <#if ((config.site_includeReadTime!'true')?boolean == true)><div class="published eta"></div></#if>
         <#if (config.site_author_avatar??) >
-        <span class="author"/><span class="name">${post.author!config.site_author}</span><img src="${content.rootpath}${post.author_avatar!config.site_author_avatar}" alt="${post.author!config.site_author}" /></span>
+        <span class="author"/><span class="name">${post.author!config.site_author}</span><img src="${post.author_avatar!config.site_author_avatar}" alt="${post.author!config.site_author}" /></span>
         </#if>
     </div>
 </header>

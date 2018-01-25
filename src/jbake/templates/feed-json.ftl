@@ -6,7 +6,7 @@
     "feed_url": "${config.site_host}/${config.feed_file}",
     "author" : {
     	"name": "${config.site_author}",
-    	"avatar": "${config.site_host}/${config.site_author_avatar}"
+    	"avatar": "${config.site_author_avatar}"
     },
     "items": [
     	<#list posts as post>
